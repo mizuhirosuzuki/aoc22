@@ -1,0 +1,6 @@
+import numpy as np
+
+with open('input.txt', 'r') as f:
+    snack_array = f.read().split('\n\n')
+
+snack_cons = [np.array(snack.split('\n')).astype(int).sum() for snack in snack_array]
