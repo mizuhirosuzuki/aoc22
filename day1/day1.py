@@ -18,5 +18,3 @@ print(np.max(snack_cons))
 
 snack_cons.sort()
 print(np.sum(snack_cons[-3:]))
-
-
